@@ -1,0 +1,53 @@
+.wrap-content-2 {
+	width: 860px;
+    float: left;
+    margin-left: 30px;
+}
+
+.info-top-play .info-content {
+	margin-left : 0px;
+}
+
+.info-top-play .info-content h1 {
+	margin-bottom : 30px;
+}
+
+.info-top-play { clear : both;}
+
+.button-style-1 {
+    display: inline-block;
+    padding: 3px 10px;
+    color: gray;
+    border: 1px solid #e5e5e5;
+    background: #f7f7f7;
+    margin-right: 7px;
+    line-height: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.pull-left{
+	float : left;
+}
+
+.button-style-1 .icon-add {
+	background-image : url(../image/icon.png);
+	background-position : -5px -1659px;
+	background-repeat : no-repeat;
+	position: relative;
+	width : 25px;
+	height : 25px;
+	display : inline-block;
+	cursor: pointer;
+}
+
+.button-style-1 span {
+	position: relative;
+	top : -7px;
+	color : #2582be;
+}
+
+.cover {
+	background-image : url(../image/background-player-2.jpg);
+    background-position : 50% 38%;
+}

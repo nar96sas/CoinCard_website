@@ -1,0 +1,152 @@
+.wpage_lightbox {
+	width : 450px;
+	height : auto;
+	background-color: #ffffff;
+	margin-top : 50px;
+	position: absolute;
+	margin-left : 35%;
+}
+
+.wpage_lightbox .title_lightbox {
+	width : 430px;
+	float : left;
+	line-height: 34px;
+	padding : 2px 10px;
+	background : #2582be;
+	font-size : 18px;
+	color : white;
+}
+
+.wpage_lightbox .content-lightbox {
+	float : left;
+	padding : 15px 40px 15px 40px;
+	height : auto;
+	line-height : 34px;
+	width : 370px;
+}
+
+.wpage_lightbox .content-lightbox .fun-login {
+	border-top : 0px;
+	float : left;
+	width : 370px;
+	color : #333333;
+}
+
+.wpage_lightbox .content-lightbox .fun-login .pdform {
+	float : left;
+	width : 400px;
+	font-size : 13px;
+	padding : 3px 0px;
+}
+
+.wpage_lightbox .lb {
+	display: block;
+	color : black;
+	font-size: 12px;
+}
+
+.wpage_lightbox .row {
+	padding : 2px 0 4px 0;
+}
+
+.wpage_lightbox .input {
+	width : 335px;
+	padding : 5px 3px;
+	height: 30px;
+	line-height: 20px;
+	color : #333;
+	font-size: 12px;
+	border : 1px solid #cfcfcf;
+	border-radius: 3px;
+	margin : 0;
+	box-shadow: inset 1px 1px 4px 0 rgba(220, 220, 220, 1);
+}
+
+.content-lightbox .fun-login .pdform .box-more-option {
+	float : left;
+	width : 370px;
+	line-height : 40px;
+	height : 40px;
+	padding : 15px 0px 10px 0px;
+}
+
+.wpage_lightbox .btn {
+	float : right;
+	font-size : 15px;
+	width : 100px;
+	text-align: center;
+	height : 36px;
+	line-height: 36px;
+	margin : 0 0 5px 0;
+	padding : 0px 20px;
+	border : none;
+	background : #2582be;
+	color : white;
+	border-radius : 4px;
+	cursor : pointer;
+}
+
+.hide {
+	display : none;
+}
+
+.error {
+	background : #e64e4e;
+	border-top : #bb2727 solid 0px;
+	padding : 15px 0px 10px 0px;
+	float : left;
+	width : 93%;
+	margin : 5px 0;
+	border-radius: 4px;
+}
+
+.icon {
+	width : 16px;
+	height : 16px;
+	display : block;
+	background : url(../image/icon1.png) ;
+	background-position: -233px -40px;
+	background-repeat: no-repeat;
+	margin : 2px 10px 5px 15px;
+	float : left;
+}
+
+#loginError {
+	width : 328px;
+	text-align: left;
+}
+
+.content-alert {
+	float : left;
+	line-height: 18px;
+	font-size : 15px;
+	color : white;
+}
+
+.box-not-user {
+	float : left;
+	width : 358px;
+	padding : 0 0;
+	text-align: left;
+	height : 34px;
+	line-height : 34px;
+}
+
+.box-not-user a {
+	color : blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

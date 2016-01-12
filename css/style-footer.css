@@ -1,0 +1,60 @@
+.footer {
+    background : #222428;
+    padding : 20px 0 0;
+    overflow : hidden;
+    color : white;
+    position : relative;
+    z-index : 99;
+    font-size : 12px;
+    margin-top : 30px;
+    clear : both;
+}
+
+.container-footer {
+    width : 1190px;
+    margin : 0 auto;
+    overflow : hidden;
+    position : relative;
+}
+
+.footer .row {
+    margin-bottom : 15px;
+    overflow : hidden; 
+    margin-left : 15px;
+}
+
+.col-4 , .col-5, col-3{
+    color : gray;
+    padding-left : 15px;
+    width : 33%;
+    position : relative;
+    min-height : 1px;
+    padding-right : 15px;
+    float : left;
+}
+
+.col-4 img {
+    float : left;
+    margin-right : 15px;
+    max-width : 100%;
+    vertical-align : middle;
+}
+
+.col-4 p { margin-top : 8px;}
+
+.col-5 {
+    padding-left : 15px;
+    width : 42%;
+    color : white;
+}
+
+.col-3 {
+    padding-left : 15px;
+    width : 25%;
+    float : right;
+}
+
+.col-3 img {
+    width : 34px;
+    height : 34px;
+}

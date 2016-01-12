@@ -1,0 +1,91 @@
+.box-content {
+	float : left;
+	width: 100%;
+	margin: 20px 0 0 0;
+	position: relative;
+}
+
+.box-content .content-wrap {
+	max-width : 1170px;
+	margin : 0 auto;
+	padding : 0 10px;
+}
+
+.box-singer-full {
+	padding : 0px 0;
+	width : 1170px;
+	float : left;
+	overflow : hidden;
+}
+
+.title_box_key {
+	width : 100%;
+	float : left;
+}
+
+.title_box_key h3 {
+	color : #2582be;
+	float : left;
+	display : block;
+	width : auto;
+	font-size : 28px;
+	text-transform: uppercase;
+	font-weight: 300;
+	line-height: 36px;
+	margin : 0 0 10px 0;
+}
+
+.title_box_key h3 a {
+	color : #2582be;
+	background : url(../image/icon-repeat.png) right -155px no-repeat;
+	padding : 0 20px 0 0;
+	font-weight: 300;
+}
+
+.sing-select-abc {
+	float : right;
+	width : auto;
+}
+
+.sing-select-abc a {
+	float : left;
+	margin : 0 0 0 20px;
+	line-height: 32px;
+	font-size: 18px;
+	font-weight: 300;
+	color : #444444;
+}
+
+.sing-select-abc a.active {
+	color : #0689ba;
+	font-weight : 500;
+}
+
+.list-singer-item {
+	float : left;
+	width : 1210px;
+}
+
+.list-singer-item li {
+	float : left;
+	width : 202px;
+	margin : 0 40px 20px 0;
+	height : 300px;
+}
+
+.list-singer-item img {
+	width: 202px;
+	vertical-align: middle;
+	border : 0;
+	height: 250px;
+}
+
+.list-singer-item li h3 {
+	float : left;
+	width : 202px;
+	font-size : 15px;
+	font-weight: 700;
+	padding : 8px 0;
+}
+
+

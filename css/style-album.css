@@ -1,0 +1,117 @@
+.wrap-2-col {
+    margin-top : 50px;
+    margin-bottom : 30px;
+    overflow : hidden;
+    min-height: 650px;
+    width : 1290px;
+    position : relative;
+    margin : 0 auto;
+}
+
+.wrap-2-col .sidebar {
+    width : 192px;
+    float : left;
+}
+
+.mContainer {
+    position : relative;
+    left : 0px;
+    top : 0px;
+    overflow : hidden;
+    width : auto;
+    height : auto;
+}
+
+.wrap-2-col .sidebar .data-list>li {
+    margin-bottom : 10px;
+    text-transform : uppercase;
+    padding : 8px 20px;
+    display : block;
+    font-weight : 700;
+    font-size : 16px;
+}
+
+.wrap-2-col .sidebar .data-list li a {
+    padding : 8px 20px;
+    display : block;
+    color : #888;
+}
+
+.wrap-2-col .sidebar .data-list li.active>a {
+    background : gold;
+    color : #2582be;
+    font-size : 14px;
+}
+
+.wrap-2-col .sidebar .data-list li a:hover {
+    color : #2582be;
+    background : gold;
+}
+
+.item img {
+    box-shadow : #000 0 0;
+    border : 1px solid #f2f2f2;
+    max-width : 100%;
+    vertical-align : middle;
+    width : 217px;
+    height : 217px;
+}
+
+.item .thumb {
+    position : relative;
+    display : block;
+    margin-bottom : 8px;
+    background-color : #000;
+}
+
+.pone-of-four {
+    padding-left : 15px;
+    width : 217px;
+    position : relative;
+    min-height : 1px;
+    padding-right : 15px;
+    float : left;
+    margin-bottom : 30px;
+}
+
+.ellipsis {
+    white-space : nowrap;
+    text-overflow : ellipsis;
+    overflow : hidden;
+}
+
+h2 {
+    font-weight : normal;
+    font-size : 100%;
+}
+
+.h4 {
+    font-size : 16px;
+    color : #010101;
+}
+
+.title-sd-item a {
+    font-style : normal;
+    font-size : 12px;
+    color : #888;
+}
+
+.tab-pane {
+    margin-bottom : 30px;
+    background-color : black;
+}
+
+.zcontent {
+    width : 1000px;
+    float : right;
+    position : relative;
+}
+
+.title-section {
+    text-transform : uppercase;
+    font-weight : 300;
+    margin-bottom : 35px;
+    font-size : 26px;
+    color : #2582be;
+    margin-left : 15px;
+}

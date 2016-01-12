@@ -1,0 +1,119 @@
+.full-banner {
+    background : #222b30;
+    padding : 20px 0;
+    margin-top : -20px;
+}
+
+.container-2 {
+    width : 1190px;
+    margin : 0 auto;
+    overflow : hidden;
+    position : relative;
+}
+
+.container-2>img {
+    max-width : 100%;
+    width : 1190px;
+    vertical-align : middle;
+    border : 0;
+    height : 350px;
+}
+
+.full-banner .box-info-artist {
+    position : absolute;
+    bottom : 0;
+    padding : 50px 0 15px;
+    width : 100%;
+    left : 0;
+    background : linear-gradient(to bottom, transparent 0, rgba(0,0,0,0.09) 14%, rgba(0,0,0,0.43) 47%,rgba(0,0,0,0.5) 59%, rgba(0,0,0,0.5) 100%);
+}
+
+.full-banner .box-info-artist .info-artis img {
+    margin-left : 15px;
+    float : left;
+    border : 4px solid #fff;
+    box-shadow : 0 0 0 1px rgba(128,128,128,0.5);
+    width: 202px; height: 250px;
+}
+
+.full-banner .box-info-artist .info-artis .info-summary {
+    position : absolute;
+    bottom : 15px;
+    width : 100%;
+    padding : 0 50px 30px 280px;
+    color : #fff;
+}
+
+.full-banner .box-info-artist .info-artis .info-summary .info-summary-title h1 {
+    display : inline-block;
+    margin-bottom : 5px;
+    font-weight : 300;
+    font-size : 30px;
+}
+
+.full-banner .box-info-artist .info-artis .info-summary p {
+    line-height : 1.6;
+    color : gold;
+}
+
+.wrap-content {
+    margin-top : 20px;
+    clear : both;
+}
+.wrap-content .title-section>a {
+    color : #2582be;
+    background : url(../image/icon-repeat.png); 
+    background-position: right -155px; 
+    background-repeat : no-repeat;
+    padding : 0 20px 0 0;
+    font-weight: 300;
+}
+
+.wrap-content .title-section {
+    color : #2582be;
+    display : block;
+    width : auto;
+    font-size : 28px;
+    text-transform: uppercase;
+    font-weight: 300;
+    line-height: 36px;
+    margin : 50 0 10px 0;
+}
+
+.playlist li {
+    position : relative;
+    height : 50px;
+    border-top : 1px solid #dedede;
+}
+
+.instrument h3 {
+    width : 183px;
+    font-size : 14px;
+    font-weight : 700;
+    padding : 8px 0;
+}
+
+.instrument img {
+    width : 250px;
+    vertical-align : middle;
+    height : 183px;
+}
+
+.instrument li {
+    width : 183px;
+    margin : 0 20px 20px 0;
+    float : left;
+}
+
+.pone {
+    width: 217px;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    float: left;
+    margin-bottom: 30px;
+}
+
+.pagination {
+    text-align: left;
+}

@@ -1,0 +1,241 @@
+body {
+	background-color: #e6e6e6;
+}
+
+#header {
+	background: url(../image/minial-stripes-light.png) left top #282828;
+	border-top-style : solid;	
+	border-top-width: 5px;
+	border-color: gold;
+	height: 75px;
+}
+
+#header .logo {
+	float : left;
+	margin-left : 30px; margin-top : -5px;
+	margin-right: 50px;
+}
+
+.account {
+	line-height: 50px;
+	float: right;
+	margin-right: 50px;
+}
+
+.account .login, .account .sign-up, .account span {
+	font-weight: bold;
+	font-size: 20px; 
+	color: white;
+}
+
+.account span {	margin : 0 5px;}
+
+.container {
+	background-color: #f2f2f2;
+	height: 40px;
+	margin-bottom : 30px;
+}
+
+.container ul {
+	margin-left: 15px;
+}
+
+.container a {
+	line-height: 39px;
+	font-weight: 400;
+}
+
+.container li {
+	float : left;
+	padding : 0 20px;
+	display: block;
+	
+}
+
+.container .home a {
+	background-image: url(../image/icon.png);
+	background-repeat: no-repeat;
+	background-position: -15px 1px;
+	width: 25px;
+	height: 100%;
+	padding: 0;	
+	display: block;
+	text-indent : -9999px;
+}
+
+.container .submenu {
+	background-color: white;
+	position: absolute;
+	margin-left: -20px;
+	visibility: hidden;
+	width: 171px;
+	display: block;
+	z-index: 999;
+}
+
+.container li:hover .submenu {
+	visibility: visible;
+}
+
+.container li a:hover {
+	color : gold;
+}
+
+.container ul li:hover{
+	background-color: white;
+}
+
+.user .tip-dropdown {
+	position: absolute;
+	background : #fff;
+	padding : 15px 20px;
+	right : 5%;
+	top : 40px;
+	width : 100px;
+	margin-top : 25px;
+	margin-right: -10px;
+	visibility: hidden;
+	z-index: 999;
+}
+
+.user .tip-dropdown ul li a {
+	position: relative;
+	padding-left: 20px;
+}
+
+.user .tip-dropdown .zicon {
+	background-image: url(../image/icon.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	top : -3px;
+	left : -3px;
+	display: inline-block;
+	width: 25px;
+	height: 25px;	
+}
+
+.tip-dropdown .icon-account { background-position: 0 -2284px; }
+.tip-dropdown .icon-update { background-position: 0 -2309px; }
+.tip-dropdown .icon-out { background-position: 0 -2384px; }
+
+.user .icon-s-arrow {
+	background-image: url(../image/icon.png);
+	background-repeat: no-repeat;
+	width : 25px;
+	height : 25px;
+	background-position: 0 -1334px;
+	display : inline-block;
+	position: relative;
+	top : 7px;
+}
+
+.user .arr-top {
+	width : 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 10px 10px 10px;
+	border-color: transparent transparent #fff transparent;
+	position: absolute;
+	top : -10px;
+	right : 40px;
+}
+
+.account .user:hover .tip-dropdown{
+	visibility: visible;
+}
+
+.section-search {
+	margin-top : 15px;
+}
+
+.section-search .search {
+	float : left;
+	margin-top : 10px;
+	width : 480px;
+	position : relative;
+}
+
+.section-search .search .input-txt {
+	float : left;
+	padding : 5px 15px;
+	width : 200px;
+	height : 29px;
+
+}
+
+.section-search .input-select {
+	float : left;
+	padding : 5px 15px;
+	height : 29px;
+	border-left : 0px;
+}
+
+.section-search .btn-search {
+	width: 34px;
+	height: 29px;
+	background-position: 5px -34px;
+	line-height: 29px;
+	border : 0;
+	background-image: url(../image/icon.png);
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+.myCartOn {
+	position : relative;
+	background-color : gold;
+	width : 145px;
+	float : left;
+	line-height : 1.5;
+	text-align : center;
+	white-space : nowrap;
+	margin-top : -12px;
+	margin-left : 120px;
+}
+
+.myCartOn a {
+	display : block;
+	height : 70px;
+	line-height : 38px;
+	padding : 0 23px;
+	font-size : 117%;
+	position : relative;
+	z-index : 2;
+	color : #fff;
+}
+
+.numberMyCart {
+	border-radius : 14px;
+	background-color : gold;
+	position : absolute;
+	right : 130px;
+	top : 18px;
+	z-index : 2;
+	line-height: 1.45;
+	box-shadow: 0 0 3px rgba(0,0,0,0.7);
+}
+
+.numberMyCart span {
+	display : inline-block;
+	min-width : 8px;
+	padding : 0 6px;
+	border-radius : 14px;
+}
+
+.myCartOn span.icon {
+	background : url(../image/spr-01.png) no-repeat 0 -18px;
+	position : absolute;
+	display : block;
+	width : 16px;
+	top : 25px;
+	left: 20px;
+	height : 14px;
+	padding-right : 15px;
+}
+
+.myCartOn span.txt {
+	margin-left : 18px;
+	position : absolute;
+	top : 13px;
+	left: 30px;
+}

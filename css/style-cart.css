@@ -1,0 +1,204 @@
+.contents{
+    position : relative;
+    width : 980px;
+    min-height : 100%;
+    margin : 0 auto;
+    text-align : left;
+    box-shadow : 0 0 8px 1px rgba(25,25,25,.3);
+    padding : 14px 0 410px;
+}
+
+.cmn-h1-basic01 {
+    width : 980px;
+    margin-bottom : 20px;
+    line-height : 1.1;
+    color : white;
+}
+
+.cmn-h1-basic01 .col01 {
+    background :#4ba6e4;
+    padding-right : 1%;
+    width : 50%;
+    vertical-align : middle;
+    display : table-cell;
+}
+
+.cmn-h1-basic01 .col01 h1 {
+    height : 43px;
+    padding : 0 0 0 20px;
+    vertical-align : middle;
+    font-weight : 700;
+    font-size : 167%;
+}
+
+.cmn-h1-basic01 .col02 {
+    background : #4dc0fa;
+    text-align : center;
+    width : inherit;
+    display : table-cell;
+    vertical-align : middle;
+}
+
+.cmn-h1-basic01 .col02 .txt01 {
+    display : table-cell;
+    text-align : right;
+    width : 81%;
+    padding : 0 23px 0 0;
+    vertical-align : middle;
+    font-size : 117%;
+    font-weight : 700;
+    float : right;
+}
+
+.sec-confirm01 {
+    padding : 0 7px 0 5px;
+}
+
+.sec-confirm01 .txt-subtotal01 {
+    color : #666;
+    text-align : right;
+    margin-right : 130px;
+}
+
+.sec-confirm01In {
+    margin-bottom : 30px;
+}
+
+.sec-confirm01 .box-cart02 {
+    display : table;
+    background : white;
+    width : 100%;
+    border : 1px #ddd solid;
+    margin-bottom : 7px;
+    position : relative;
+    border-radius : 5px;
+}
+
+.sec-confirm01 .box-cart02 .col01 {
+    position : relative;
+    border : none;
+    display : inline-table;
+    padding : 13px 0 13px 12px;
+    vertical-align : middle;
+    widht : 748px;
+}
+
+.clear-fix {
+    display : block;
+    min-height : 1%;
+}
+
+.sec-confirm01 .box-cart02 .col01 .title01 {
+    font-weight : 700;
+    font-size : 117%;
+    margin : 3px 0 11px;
+    overflow : hidden;
+    white-space : nowrap;
+    text-overflow : ellipsis;
+    width : 620px;
+}
+
+.sec-confirm01 .box-cart02 .col02,.sec-confirm01 .box-cart02 .col03 {
+    width : 100px;
+    padding : 0;
+    text-align : center;
+    position : relative;
+    display : table-cell;
+    border-left : 1px #ddd solid;
+    vertical-align : middle;
+}
+
+.sec-confirm01 .box-cart02 .col02 .txt-price01 {
+    font-weight : 700;
+    font-size : 134%;
+    margin-bottom : 5px;
+}
+
+.sec-confirm01 .box-cart02 .col03 .list-cart01 li.list01 {
+    border-bottom : 1px solid #999;
+}
+
+.sec-confirm01 .box-cart02 .col03 .list-cart01 li.list01, .sec-confirm01 .box-cart02 .col03 .list-cart01 li.list02{
+     position : relative;
+     z-index : 1;
+     cursor : pointer;
+}
+button {
+    border : 0px;
+    background : white;
+    width : 100%;
+    cursor : pointer;
+}
+.sec-confirm01 .box-cart02 .col03 .list-cart01 li.list01 a,  .sec-confirm01 .box-cart02 .col03 .list-cart01 li.list02 button {
+    display : block;
+    color : red;
+    text-align : center;
+    padding : 31px 0 25px;
+    position : relative;
+}
+
+.sec-confirm01 .box-cart02 .col03 .list-cart01 li.list01 a:hover {
+     background : #009cff;
+     color : white;
+     position :relative;
+     border-radius : 0 3px 0 0;
+     z-index : 200;
+ }
+
+.sec-confirm01 .box-cart02 .col03 .list-cart01 li.list02 button:hover {
+    background : #009cff;
+    color : white;
+    position :relative;
+    border-radius : 0 0 3px;
+    z-index : 1; 
+}
+
+.box-cart01 {
+    width : 780px;
+    height : 105px;
+    text-align : center;
+    margin : 0 auto 160px;
+    color : #fff;
+    font-size : 117%;
+    font-weight : 700;
+    background : #009cff;
+    border-radius : 5px;
+}  
+
+.box-cart01 .txt01 {
+    padding : 40px 0 0;
+}
+
+.mb35 {
+    margin-bottom : 35px;
+}
+
+.box-payment02 {
+    float : right;
+    width : 245px;
+    display : inline;
+    margin : 5px;
+    position : relative;
+}
+
+.box-payment02 .title01 {
+    font-size : 150%;
+    text-align : center;
+    font-weight : 700;
+    padding-bottom : 5px;
+}
+
+.box-payment02 .inner {
+    background : #fff;
+    position : relative;
+    padding : 10px 20px 10px 15px;
+    border : 1px #ddd solid;
+    border-radius : 5px;
+    line-height : 1.2;
+}
+
+.box-payment02 .box02 .btn-buy-all{
+    font-weight : 700;
+    font-size : 175%;
+    color : red;
+}

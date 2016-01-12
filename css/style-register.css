@@ -1,0 +1,178 @@
+body {
+	background-color: #c9ebf5;	
+}
+
+.bgpage {
+	background-image: url(../image/bg.jpg);
+	background-position: center top;
+	background-repeat: no-repeat;
+	height: 500px;
+}
+
+.wpage {
+	width : 940px;
+	margin : 0 auto;
+}
+
+.topbanner {
+	height: 1%;
+	padding : 25px 0 17px 0;
+}
+
+.topbanner .pd-regis {
+	float : right;
+}
+
+.topbanner .pd-regis .btn-login {
+	width : 145px;
+	height : 53px;
+	background : url(../image/login.png) no-repeat;
+	display : block;
+	float : right;
+	text-indent: -9999px;
+}
+
+.topbanner .pd-regis span {
+	color : #5b5a5a;
+	font-size : 12px;
+	float : right;
+	padding : 19px 10px 0 0;
+	font-size: 100%;
+}
+
+.bregis {
+	background-color: #fff;
+    background-image: url(../image/bgmain2.jpg);
+    background-position: right top;
+    background-repeat: repeat-y;
+    border: 1px solid #b8dce7;
+    border-radius: 5px;
+    padding: 7px 0px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    height: 530px;
+    clear: both;
+    margin-bottom: 70px;
+}
+.left-regis {
+	float : left;
+	width : 557px;
+}
+
+.img-map {
+	padding : 5px 0 10px 0;
+}
+
+.right-regis {
+	width: 342px;
+	padding : 10px 19px 5px 19px;
+	float : left;
+}
+
+.right-regis .title-login {
+	font-size: 20px;
+    color: #666;
+    padding: 0 0 10px 0;
+    line-height: 26px;
+}
+
+.right-regis .note {
+	color : #7b7b7b;
+	font-size :11px;
+}
+
+.right-regis .red { color : #fa5400;}
+
+.right-regis .pdform {
+	margin-top : 30px;
+	padding : 0 0 6px 0;
+}
+
+.right-regis .lb {
+	display: block;
+	color : #666;
+	font-size: 12px;
+	padding : 5px 0 2px 0;
+}
+
+.right-regis .row {
+	padding : 2px 0 4px 0;
+}
+
+.right-regis .city {
+	color : #666;
+	font-size: 12px;
+	padding : 5px 0 2px 0;
+	margin-left : 83px;
+}
+
+.right-regis .input {
+	width : 335px;
+	padding : 5px 3px;
+	height: 30px;
+	line-height: 20px;
+	color : #333;
+	font-size: 12px;
+	border : 1px solid #cfcfcf;
+	border-radius: 3px;
+	margin : 0;
+	box-shadow: inset 1px 1px 4px 0 rgba(220, 220, 220, 1);
+}
+
+.right-regis .input2 {
+	width : 335px;
+	padding : 5px 3px;
+	height: 30px;
+	line-height: 20px;
+	color : #333;
+	font-size: 12px;
+	border : 1px solid red;
+	border-radius: 3px;
+	margin : 0;
+	box-shadow: inset 1px 1px 4px 0 rgba(220, 220, 220, 1);
+}
+
+.right-regis .ip-city {
+	margin-left : 30px;
+}
+.right-regis .err {
+	color : #f10000;
+}
+
+.right-regis .country {
+	width: 100px;	
+}
+
+.right-regis .row-btn {
+	padding : 10px 0 0px 0;
+}
+
+.right-regis .btn {
+	font-weight: bold;
+	background-color: #19b0d7;
+	border-color : rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+	color : white;
+	display : inline-block;
+	padding : 3px 10px 5px 10px;
+	margin-bottom: 0;
+	font-size: 13px;
+	line-height: 18px;
+	border-radius : 4px;
+	border : 1px solid #cccccc;
+}
+
+.right-regis .btn:hover {
+	cursor : pointer;
+	color : gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+

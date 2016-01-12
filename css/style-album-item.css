@@ -1,0 +1,202 @@
+.wrap-content {
+    width : 860px;
+    float : left;
+    margin-left : 18%;
+}
+
+.group {
+    display : block;
+    clear : both;
+}
+
+.info-top-play {
+    margin-bottom : 20px;
+    position : relative;
+}
+
+.wrap-content img {
+    float : left;
+    max-width : 100%;
+    vertical-align : middle;
+    border : 0;
+    width : 160px;
+    margin-bottom: 20px;
+}
+
+.info-top-play .info-content {
+    margin-left : 180px;
+}
+
+.info-top-play .info-content .txt-primary {
+    line-height : 1;
+    font-weight : 500;
+    font-size : 30px;
+    display : inline-block;
+}
+
+.info-top-play .info-content .info-song-top {
+    margin : 10px 0 10px 0;
+}
+
+.info-song-top span {
+    color : #888;
+}
+
+.info-song-top p {
+    font-size : 20px;
+}
+
+.player {
+    height : 240px;
+    width : 860px;
+    clear : both;
+}
+
+.cover {
+    background-image : url(../image/background-player.jpg);
+    background-repeat : no-repeat; 
+    background-position : 50% 50%;
+    width : 100%;
+    height : 100%;
+    top : 50%;
+    left : 50%;
+}
+
+.mask {
+    background : rgba(0,0,0,0.5);
+    width : 100%;
+    height : 100%;
+}
+
+.player .box-scroll {
+    background : #fafafa;
+    border : 1px solid #dedede;
+    margin-bottom: 30px;
+}
+
+.playlist li {
+    position : relative;
+    height : 50px;
+    border-top : 1px solid #dedede;
+}
+
+.playlist  li .item-song {
+    line-height : 50px;
+    width : 100%;
+    padding : 0 20px;
+    float : left;
+    border-bottom : 0;
+    margin-bottom : 0;
+    font-size : 14px;
+    color : #888;
+}
+
+.playlist span {
+    margin-right : 15px;
+    display : block;
+    float : left;
+    width : 18px;
+    text-align : center;
+}
+
+h3,h4 {
+    font-weight : normal;
+    font-size : 100%;
+}
+
+.playlist li .item-song h3 { 
+    float : left;
+    display : inline-block;
+}
+
+.playlist li .item-song h3 a {
+    width : 400px;
+    white-space : nowrap;
+    overflow : hidden;
+    display : block;
+    text-overflow : ellipsis;
+    margin-right : 20px;
+    font-size : 14px;
+}
+
+.playlist li .tool-song {
+    opacity : 1;
+    right : 10px;
+    position : absolute;
+    top : 50%;
+    margin-top : -14px;
+}
+
+.tool-song .i25 {
+    float : left;
+    margin-left : 0;
+}
+
+.tool-song .i25>a {
+    background-image : url(../image/icon.png);
+    background-repeat : no-repeat;
+    width : 25px;
+    height : 25px;
+    display : inline-block;
+}
+
+.tool-song .i25.addCart a {
+    background-position : 0 -1384px;
+}
+
+.tool-song .i25.direct a {
+    background-position : 0 -2059px;
+}
+
+.inline {
+    display : inline;
+}
+
+.ellipsis {
+    white-space : nowrap;
+    text-overflow : ellipsis;
+    overflow : hidden;
+}
+
+.playlist li .item-song h4 {
+    display: inline-block;
+    width: 200px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-right: 30px;
+}
+
+.playlist li:hover .item-song span, .playlist li:hover .item-song h3 a, .playlist li:hover .item-song h4 a {
+    color : gold;
+}
+
+.playlist .fn-current a, .playlist .fn-current span{
+    color : gold;
+}
+
+.playlist .fn-current span {
+    display : block;
+    width : 14px;
+    height : 10px;
+    background : url(../image/playing.png) left center;
+    animation : pause .8s steps(3);
+    top : 20px;
+    left : 1px;
+    margin-top : 20px;
+}
+
+audio {
+    width : 100%;
+    height : 0px;
+}
+
+.item-song .prix {
+    float : left;
+    position : absolute;
+    display : inline;
+    color : #333;
+}
+
+.info-song-top a:hover{
+    color : #2582be;
+}
